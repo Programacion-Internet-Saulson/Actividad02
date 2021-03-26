@@ -119,9 +119,9 @@ class mainGame extends Phaser.Scene {
 
         // Texts
         this.scoreText = this.add.text(16, 16, 'Score: 0',
-            { fontSize: '32px', fill: '#000', });
+            { fontSize: '32px', fill: '#FFF', });
         this.add.text(16, 40, `High Score: ${highScore}`,
-            { fontSize: '32px', fill: '#000', });
+            { fontSize: '32px', fill: '#FFF', });
     }
 
     update () {
